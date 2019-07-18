@@ -8,7 +8,13 @@ public class HelloController {
 
     @GetMapping("/")
     public String helloWorld() {
-        return "Hello from Spring!";
+        return "Hello from Spring 3!";
+    }
+
+    @GetMapping("/pi")
+    public String printPi() {
+        return "3.141592653589793";
     }
 
 }
+
